@@ -1,0 +1,12 @@
+# Create project directory
+mkdir sim-verification-system
+cd sim-verification-system
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install flask flask-sqlalchemy flask-login opencv-python
+pip install face-recognition dlib numpy pandas
+pip install pillow requests
